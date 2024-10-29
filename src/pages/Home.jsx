@@ -4,14 +4,14 @@ import Body from "../components/Body/Body"
 import Body2 from "../components/Body-2/Body-2"
 
 function Home() {
-    return(
+    return (
         <>
-        <Header/>
-        <div className="Conteiner">
-        <Barra/>
-        <Body/>
-        <Body2/>
-        </div>
+            <Header />
+            <div className="Conteiner">
+                <Barra />
+                <Body />
+                <Body2 />
+            </div>
         </>
     )
 }
